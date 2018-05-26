@@ -23,7 +23,7 @@ export class CadastroPage {
   }
 
   submit(){
-    var link = 'http://kenio.top/page/cadastrar_usuario_ionic';
+    var link = 'http://kenio.top/api_restaurantes/cadastrar_usuario_ionic';
     var data = JSON.stringify({ nome: this.usuario.nome, email: this.usuario.email, password: this.usuario.password });
     
     this.http.post(link, data)

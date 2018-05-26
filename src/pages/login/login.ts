@@ -23,7 +23,7 @@ export class LoginPage {
   }
 
   submit(){
-    var link = 'http://kenio.top/page/login_ionic';
+    var link = 'http://kenio.top/api_restaurantes/page/login_ionic';
     var data = JSON.stringify({email: this.usuario.email, password: this.usuario.password})
 
     this.http.post(link, data)

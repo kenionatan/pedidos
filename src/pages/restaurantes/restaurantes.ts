@@ -21,7 +21,7 @@ export class RestaurantesPage {
     });
     loader.present();
     this
-      ._http.get('http://kenio.top/restaurante/get_restaurante/')
+      ._http.get('http://kenio.top/api_restaurantes/restaurante/get_restaurante/')
       .map(res => res.json())
       .toPromise()
       .then(restaurantes => {
