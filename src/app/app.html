@@ -1,24 +1,27 @@
 <ion-menu [content]="mainContent">
   <ion-header>
-    <ion-toolbar>
+    <ion-toolbar color="dark">
       <ion-title>
         Menu
       </ion-title>
     </ion-toolbar>
   </ion-header>
-  <ion-content id="side-menu21">
+  <ion-content id="side-menu21" color="light">
     <ion-list id="menu-list1">
       <ion-item color="none" menuClose="" on-click="goToRestaurantes()" id="menu-list-item1">
+        <ion-icon color="dark" name="restaurant" item-left></ion-icon>
         Restaurantes
       </ion-item>
       <ion-item color="none" menuClose="" on-click="goToPedidos()" id="menu-list-item2">
+        <ion-icon color="dark" name="list" item-left></ion-icon>
         Pedidos
       </ion-item>
       <ion-item color="none" menuClose="" on-click="goToMinhaConta()" id="menu-list-item3">
+        <ion-icon color="dark" name="contact" item-left></ion-icon>
         Minha Conta
       </ion-item>
       <ion-item color="none" menuClose="" on-click="goToRedesSociais()" id="menu-list-item4">
-        <ion-icon name="facebook" item-left></ion-icon>
+        <ion-icon color="dark" name="wifi" item-left></ion-icon>
         Redes Sociais
       </ion-item>
     </ion-list>
